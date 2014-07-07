@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<!--
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+
+  <title>core-menu</title>
+
+  <script src="../components/platform/platform.js"></script>
+
+  <link rel="import" href="../components/core-icons/core-icons.html">
+  <link rel="import" href="../components/core-menu/core-menu.html">
+  <link rel="import" href="../components/core-menu/my-submenu.html">
+  <link rel="import" href="../components/core-menu/core-submenu.html">
+  <link rel="import" href="../components/core-item/core-item.html">
+
+  <style>
+  
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+
+    section {
+      width: 300px;
+    }
+    
+    .dark {
+      background-color: #333;
+    }
+
+    .dark core-item {
+      color: #fafafa;
+      fill: #fafafa;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  
+  
+  
+  
+    <my-submenu></my-submenu>
+    
+    <img src="http://www.hdwallpapers.in/walls/abstract_color_background_picture_8016-wide.jpg" style="position:relative; top:-20px">
+  
+</body>
+</html>
+
+
+
+<!--
+<!doctype html>
+<html>
+
+<head>
+  <title>unquote</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <script src="../components/platform/platform.js"></script>
+  <link rel="import" href="../components/font-roboto/roboto.html">
+  <link rel="import" href="../components/core-header-panel/core-header-panel.html">
+  <link rel="import" href="../components/core-toolbar/core-toolbar.html">
+  <link rel="import" href="../components/paper-tabs/paper-tabs.html">
+  <link rel="import" href="post-list.html">
+  <style>
+  html,body {
+    height: 100%;
+    margin: 0;
+    background-color: #E5E5E5;
+    font-family: 'RobotoDraft', sans-serif;
+  }
+  core-header-panel {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; 
+  }
+  core-toolbar {
+    background: #03a9f4;
+    color: white;
+  }
+  paper-tabs {
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container {
+    width: 80%;
+    margin: 50px auto;
+  }
+  @media (min-width: 481px) {
+    paper-tabs {
+      width: 200px;
+    }
+    .container {
+      width: 400px;
+    }
+  }
+  </style>
+</head>
+
+<body unresolved touch-action="auto">
+  <core-header-panel>
+    <core-toolbar>
+      <paper-tabs valueattr="name" selected="all" self-end>
+        <paper-tab name="all"><img src="http://www.polymer-project.org/images/logos/lockup.svg"></paper-tab>
+        <paper-tab name="favorites">FAVORITES</paper-tab>
+      </paper-tabs>
+    </core-toolbar>
+    <div class="container" layout vertical center>
+      <post-list show="all"></post-list>
+    </div>
+  </core-header-panel>
+<script>
+  var tabs = document.querySelector('paper-tabs');
+  var list = document.querySelector('post-list');
+  tabs.addEventListener('core-select', function() {
+    list.show = tabs.selected;
+  });
+</script>
+</body>
+
+</html>
+-->
